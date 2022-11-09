@@ -1,0 +1,126 @@
+*{
+	margin-left:10px;
+	margin-right:10px;
+}
+.header {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	text-transform:uppercase;
+	
+}
+
+.header div ul{
+	list-style-type:none;
+	text-decoration-style:transparent;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin-top:30px;
+	
+	
+}
+
+.header div ul a{
+	text-decoration:none;
+	font-family:sans-serif;
+	color:black;
+	font-weight:bold;
+	
+}
+button{
+	background-color:#c05326;
+	color:white;
+	margin-top:20px;
+	height:35px;
+	border:none;
+	border-radius:5px;
+	font-family:sans-serif;
+	padding:10px;
+}
+
+.content{
+	display:flex;
+		
+	
+}
+
+.alert{
+	background-color:#f7eae4;
+	padding:25px;
+	border-left-style: solid;
+	border-width: 4px;
+	border-radius: 2px;
+	border-color: #c05326;
+	word-spacing: 0.01px;
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+	
+}
+
+span.text-highlight{
+	color:#c05326;
+}
+
+.hero{
+	margin-top:35px;
+	height:320px;
+	width:890px;
+	background-image:url("../img/header-bike.jpg");
+	background-image:fixed;
+}
+
+.hero div{
+	padding-top:50px;
+}
+.hero h1{
+	color:white;
+	font-family: "Source Sans Pro";
+	font-weight:bold;
+	margin-left:37px;
+    font-weight:20px;
+}
+.hero p{
+	color:white;
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+	margin-left:37px;
+}
+.hero button{
+	font-family:"Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+	margin-left:35px;
+}
+.btn-primary{
+	background-color:white;
+	color:#c05326;
+	
+	
+}
+
+div h2{
+	font-family:sans-serif;
+	text-transform:uppercase;
+	margin-left:0;
+	font-size:13px;
+	margin-top:50px;
+	
+}
+hr{
+	margin-left:0;
+	margin-right:0;
+	border:2px solid #f7eae4;;
+		
+}
+
+.article{
+	font-family:"Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+	border:1px solid grey;
+	margin-left:0;
+
+	
+}
+
+
+	
+	
+	
